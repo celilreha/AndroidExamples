@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/id_yeniGrup"
+        android:title="Yeni Grup" />
+    <item
+        android:id="@+id/id_yeniTopluMesaj"
+        android:title="Yeni Toplu Mesaj" />
+    <item
+        android:id="@+id/id_whatsappWeb"
+        android:title="Whatsapp Web" />
+    <item
+        android:id="@+id/id_yildizliMesajlar"
+        android:title="Yıldızlı Mesajlar" />
+    <item
+        android:id="@+id/id_ayarlar"
+        android:title="Ayarlar" />
+</menu>

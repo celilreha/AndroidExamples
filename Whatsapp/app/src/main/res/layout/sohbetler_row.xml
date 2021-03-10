@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:padding="10dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivSohbetKisiResim"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_weight="0.2"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="0.6"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            android:gravity="left|bottom"
+            android:id="@+id/tvSohbetKisiAdSoyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ad Soyad" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"
+            android:textColor="#828282"
+            android:layout_marginTop="5dp"
+            android:gravity="left|top"
+            android:id="@+id/tvSohbetKisiSonMesaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Son Mesaj" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="0.2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#00d55b"
+            android:layout_gravity="right"
+            android:gravity="center|right"
+            android:textSize="16sp"
+            android:text="09.03.2020"
+            android:id="@+id/tvSohbetKisiSonMesajTarih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/bildirim_sayisi"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="20"
+            android:id="@+id/tvSohbetKisiSonMesajSayisi"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
