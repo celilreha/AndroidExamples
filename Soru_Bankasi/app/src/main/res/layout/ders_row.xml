@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linearDers_bg">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#A20A0A"
+        android:background="#FFFFFF"
+        android:id="@+id/tvDersBaslik"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="Başlık"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#040D27"
+        android:background="#FFFFFF"
+        android:text="Açıklama"
+        android:id="@+id/tvDersAciklama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:textColor="#E40F0F"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:id="@+id/tvDersKonuSayisi"
+            android:text="Konu Sayısı"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:textColor="#E40F0F"
+            android:text="Soru Sayısı"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:id="@+id/tvDersSoruSayisi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
