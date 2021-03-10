@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intro_Screen</string>
+    <string name="or_sign_in_with">Or sign in with</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="tagLine">With millions of users all over the world, we gives you the abbility to connect with people no matter where you are.</string>
+    <string name="find_new_friends_nearby">Find new\nFriends nearby</string>
+</resources>
