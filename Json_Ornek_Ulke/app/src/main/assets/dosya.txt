@@ -1,0 +1,7 @@
+{"ulkeler":[
+  { "ad":"TÜRKİYE CUMHURİYETİ", "baskent":"ANKARA", "bayrak":"tr","parabirimi":"Türk Lirası" },
+  { "ad":"AZERBAYCAN", "baskent":"BAKÜ", "bayrak":"az","parabirimi":"AZN" },
+  { "ad":"ITALIAN REPUBLIC", "baskent":"ROME", "bayrak":"it","parabirimi":"EUR" },
+  { "ad":"FRENCH REPUBLIC", "baskent":"PARIS", "bayrak":"fr","parabirimi":"EUR" },
+  { "ad":"UNITED STATES OF AMERICA", "baskent":"WASHINGTON", "bayrak":"usa","parabirimi":"USD" }
+]}
