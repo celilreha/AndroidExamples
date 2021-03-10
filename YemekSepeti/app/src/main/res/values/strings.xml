@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Yemek_Sepeti</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="email">E Mail</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="tagLine">With millions of users all over the world, we gives you the abbility to connect with people no matter where you are.</string>
+    <string name="yemek_siparisinin_en_kolay_yolu">Yemek Siparişinin\nEn kolay yolu</string>
+</resources>
