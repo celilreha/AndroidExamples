@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Listview_Strings_Kullanimi</string>
+    <array name="ilceler">
+        <item>Fatih</item>
+        <item>Beşiktaş</item>
+        <item>Bağcılar</item>
+        <item>GOP</item>
+        <item>Esenler</item>
+        <item>Zeytinburnu</item>
+        <item>Bayrampaşa</item>
+        <item>Üsküdar</item>
+        <item>Silivri</item>
+        <item>Ümraniye</item>
+    </array>
+</resources>
