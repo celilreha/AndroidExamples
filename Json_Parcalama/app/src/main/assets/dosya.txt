@@ -1,0 +1,6 @@
+{"ogrenciler":[
+  { "ad":"John", "soyad":"Doe","yas":35 },
+  { "ad":"Anna", "soyad":"Jerry","yas":35 },
+  { "ad":"Tom", "soyad":"Smith","yas":35 },
+  { "ad":"Peter", "soyad":"Jones","yas":35 }
+]}
