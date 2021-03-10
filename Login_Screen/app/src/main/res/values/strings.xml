@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login_Screen</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="mobile">Mobile</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="welcome_back">Welcome Back</string>
+</resources>
