@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.6"
+        android:id="@+id/ivTarifGorsel"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/balik"/>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="0.4"
+        android:weightSum="1">
+        <TextView
+            android:background="#80F1CF54"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:id="@+id/tvTarifBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+        <LinearLayout
+            android:layout_weight="0.4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3">
+            <TextView
+                android:textSize="10sp"
+                android:gravity="center"
+                android:text="Kişi Sayısı"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:textSize="10sp"
+                android:gravity="center"
+                android:text="Pişirme Süresi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:textSize="10sp"
+                android:gravity="center"
+                android:text="Hazırlama Süresi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3">
+            <TextView
+                android:background="#60F1CF54"
+                android:id="@+id/tvTarifKisiSayisi"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:background="#80F1CF54"
+                android:id="@+id/tvTarifPisirmeSuresi"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:background="#99F1CF54"
+                android:id="@+id/tvTarifHazirlamaSuresi"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
